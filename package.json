@@ -1,0 +1,40 @@
+{
+  "name": "dsh-seamless-restart",
+  "version": "2.1.1",
+  "description": "DSH 桌面版无缝重启：一个按钮彻底重启 DSH，重启期间窗口被磨砂遮罩接管（原窗口截图 + 加载圈 + 进度条），看起来像没离开过",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "restart",
+    "seamless",
+    "windows",
+    "desktop"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ht34robot-173000/dsh-seamless-restart.git"
+  },
+  "homepage": "https://github.com/ht34robot-173000/dsh-seamless-restart#readme",
+  "bugs": {
+    "url": "https://github.com/ht34robot-173000/dsh-seamless-restart/issues"
+  },
+  "author": "ht34robot-173000",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
